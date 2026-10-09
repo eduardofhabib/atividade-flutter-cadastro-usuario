@@ -8,10 +8,10 @@ Verificação realizada em 09/10/2026.
 - `flutter test`: seis testes aprovados.
 - `flutter build web`: compilação concluída.
 - `flutter build apk --debug`: compilação concluída; APK Android gerado.
-- Aplicativo executado no Brave em uma janela de teste de 430 × 900 pixels.
-- No Brave, confirmado que campos vazios exibem erros individuais e SnackBar vermelho.
-- No Brave, confirmado que letras, espaços e pontuação são removidos de CPF e telefone.
-- No Brave, confirmado o cadastro com dados válidos e SnackBar verde.
+- Aplicativo executado no navegador em uma janela de teste de 430 × 900 pixels.
+- No navegador, confirmado que campos vazios exibem erros individuais e SnackBar vermelho.
+- No navegador, confirmado que letras, espaços e pontuação são removidos de CPF e telefone.
+- No navegador, confirmado o cadastro com dados válidos e SnackBar verde.
 - Nenhum erro de execução JavaScript durante a verificação no navegador.
 
 Os prints usam dados fictícios. O formulário demonstra validação e captura em memória; não cria contas em um serviço externo.
