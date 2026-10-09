@@ -82,5 +82,3 @@ O [PDF final](docs/Atividade_Formulario_Cadastro_Final.pdf) contém a identifica
 ![Cadastro realizado com sucesso](docs/cadastro_sucesso.png)
 
 ![Erros de validação](docs/validacao_erros.png)
-
-Use o link deste repositório e o arquivo `docs/cadastro_sucesso.png` na entrega pelo AVA.
