@@ -42,10 +42,10 @@ Requisitos: Flutter SDK com Dart, Git e um navegador. Para Android, também são
 git clone https://github.com/eduardofhabib/atividade-flutter-cadastro-usuario.git
 cd atividade-flutter-cadastro-usuario
 flutter pub get
-flutter run -d web-server --web-hostname 127.0.0.1 --web-port 8080
+flutter run -d web-server --web-hostname 127.0.0.1
 ```
 
-Abra `http://127.0.0.1:8080` no navegador de sua preferência. O [modo web-server](https://docs.flutter.dev/platform-integration/web/setup) permite executar o Flutter no navegador escolhido. No Windows, o script `executar_navegador.ps1` também inicia o servidor do formulário:
+O Flutter escolhe uma porta livre automaticamente. Aguarde a compilação e abra o endereço exibido no terminal no navegador de sua preferência. O [modo web-server](https://docs.flutter.dev/platform-integration/web/setup) permite executar o Flutter no navegador escolhido. No Windows, o script `executar_navegador.ps1` também inicia o servidor do formulário:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\executar_navegador.ps1

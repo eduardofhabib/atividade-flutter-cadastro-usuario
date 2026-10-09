@@ -14,6 +14,6 @@ if ($flutterCommand) {
 & $flutterExecutable pub get
 if ($LASTEXITCODE -ne 0) { throw 'Falha ao instalar as dependências.' }
 
-Write-Host 'Aguarde a compilacao e abra http://127.0.0.1:8080 no navegador de sua preferencia.'
+Write-Host 'Aguarde a compilacao e abra no navegador o endereco informado pelo Flutter.'
 Write-Host 'Para encerrar, pressione Ctrl+C.'
-& $flutterExecutable run -d web-server --web-hostname 127.0.0.1 --web-port 8080
+& $flutterExecutable run -d web-server --web-hostname 127.0.0.1
